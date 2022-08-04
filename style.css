@@ -1,0 +1,11 @@
+div#gallery {position:relative;}
+
+
+div#gallery img {
+	
+position:absolute;
+transition:1s;
+width:100%;
+opacity:0;
+}
+div#gallery img.visible {opacity:1;}
