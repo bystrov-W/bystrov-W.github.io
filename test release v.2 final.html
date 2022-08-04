@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pizza Вкуснейшая и точка</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <style>
+  
+  
+ .container {text-align:center;}
+  
+* { font-size:1vw;}  
+div { border:0px solid black;}
+ div#bg1 
+ {
+ background-image:url('https://i.ibb.co/4WhXtQ3/4.png');
+ background-repeat:no-repeat;
+ background-size:contain;
+ background-position:top center;
+ }
+  div#bg2 
+ {
+ background-image:url('http://clipart-library.com/images_k/smile-transparent-background/smile-transparent-background-17.png');
+ background-repeat:no-repeat;
+ background-size:contain;
+ background-position:top center;
+ }
+h1,p { text-align:center;}
+  .catalog .row { max-height:300px;}
+
+
+  div btn-bd-primary {
+  bs-btn-font-weight: 600;
+  bs-btn-color: var(--bs-white);
+  bs-btn-bg: var(--bd-violet);
+  bs-btn-border-color: var(--bd-violet);
+  bs-btn-border-radius: .5rem;
+  bs-btn-hover-color: var(--bs-white);
+  bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+  bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  bs-btn-active-color: var(--bs-btn-hover-color);
+  bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+  bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+ }
+
+  //.left_bg {text-align:center;
+    width: 29vw;
+    height: 10vh;
+    background-size: auto;
+    background: url(https://img.freepik.com/premium-vector/pizza-logo-design_9845-319.jpg)50% 100% ; 
+    top: 5%;
+    left: 500px;
+    background-size: contain; /* Масштабируем фон */
+    
+    } 
+    
+.left_bg:hover
+{ border-radius:10%;
+background-color:yellow;width:100px; height:100px;
+transition:width 3s, background-color 1s,
+			transform 3s;
+            
+            top: 5%;
+    left: 350px;
+transform: rotate(360deg);
+background: url(https://img.freepik.com/premium-vector/pizza-logo-design_9845-319.jpg) 50% 100%);
+}
+
+
+ 
+   .right_bg {position: absolute;
+    width: 5vw;
+    height: 8vh;
+        background: url(https://i.ibb.co/wNnXYQK/8-800.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 3.5%;
+    right: 270px;
+    transform: rotate(-22deg);
+	
+
+	} 
+    	.right_bg:hover { border-radius:10%;
+background-color:yellow;width:240px; height:100px;
+transition:width 3s, background-color 1s,
+			transform 0.2s;
+transform: rotate(0deg);
+background: url(https://i.ibb.co/wNnXYQK/8-800.png);
+}
+
+   .right_bg:hover {
+     /* Путь к файлу с заменяемым рисунком  */
+   }
+
+#catalog img {width:100%;}
+
+
+.btn {position: relative;
+  top: 60px;
+  font-weight: 450;
+  color: var(--bs-white);
+  bg: var(--bd-violet);
+  border-color: var(--bd-violet);
+   hover-color: var(--bs-white);
+}
+
+  </style>
+    
+  </head>
+  
+  <body>
+  
+  
+  <script>
+  function press() {
+alert(' Вы нажали кнопочку, сейчас все откроем...');
+alert(' Загрузка объекта...');
+alert(' 3...');
+alert(' 2..');
+alert(' 1.');
+window.open('https://cs11.pikabu.ru/post_img/2020/05/11/11/1589224804142471795.jpg');
+
+
+}
+
+
+
+function press2 (){
+alert(' Вы нажали кнопочку Всякое, оставьте автограф..');
+window.open('paint2.html');
+}
+	  
+	  function press3 (){
+alert(' Вы нажали на телефон..');
+window.open('https://www.youtube.com/watch?v=b7cWjL2Ly40');
+
+}
+
+ </script>
+  
+   <div class="row">
+ <!-- <div class="col-3">HEADER!!!!!!!!!!!!!!!!</div>  
+   <aside class="col-3">sidebar</aside><!-- sidebar--> 
+  <div class="col-5"</div>
+  
+  <div class="left_bg"></div>
+  <div type="button" onclick="press3()" class="right_bg" >  👇
+
+
+</div>
+
+ <div class="col-2">
+    	</img>
+    </div>
+
+
+
+
+  </div>
+  </div>
+
+
+  <main class="row"><!-- центр сайта-->
+
+
+  
+  <section>
+  <!-- тарелки
+<div class="container">
+<div id="plates" class="row">
+	<div class="col-2">
+    	<img src="plate.png" class="photo"></img>
+    </div>
+	<div class="col-2">
+    	<img src="plate.png"  class="photo"></img>
+    </div>
+    <div class="col-2">
+    	<img src="plate.png" class="photo"></img>
+    </div>
+   <div class="col-2">
+    	<img src="plate.png"  class="photo"></img>
+    </div>
+    <div class="col-2">
+    	<img src="plate.png" class="photo"></img>
+    </div>
+ </div>  --> 
+
+  <div id="catalog" class="container"> <!-- картинка макета-->
+  
+
+  <button type="button" onclick="press()" class="btn btn-outline-primary btn-lg"> Меню</button>
+<button type="button" onclick="press()" class="btn btn-outline-warning btn-lg">Доставка</button>
+<button type="button" onclick="press()" class="btn btn-outline-dark btn-lg">Акции</button>
+<button type="button" onclick="press()" class="btn btn-outline-success btn-lg">Контакты</button>
+<button type="button" onclick="press2()" class="btn btn-outline-info btn-lg">Всякое</button>
+
+    <img src="макет копия5.png" >
+ 
+ 
+
+   </div>
+
+
+</body>
+    </section>
+	
+  
+  </main>
+  <p>//не забыть удалить перед релизом://</p>
+  
+	<div class="ссылки" center>
+	  <a href="https://bystrov-w.github.io/form.html" target="_blank" title="кнопки"><center>Кнопки</a> <br>
+	 <a href="https://bystrov-w.github.io/gallery_last3.html" target="_blank" title="галерея">Галерея</a> <br>
+	  <a href="https://bystrov-w.github.io/paint2.html" target="_blank" title="draw">Курсор</a><br>
+  
+  
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
